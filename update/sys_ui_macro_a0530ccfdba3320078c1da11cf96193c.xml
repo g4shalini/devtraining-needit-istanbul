@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>test1</name>
+        <scoped_name>x_58872_needit_test1</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-28 13:43:57</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a0530ccfdba3320078c1da11cf96193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_macro_a0530ccfdba3320078c1da11cf96193c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-28 13:43:57</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<table>
+	<tr>
+	<td id="td1">
+		<select id="tw" onchange="auto(this)">
+			<option value = "None">None</option>
+  <option value="NON SAP">NON SAP</option>
+  <option value="EUC">EUC</option>
+  <option value="DC Infra">DC Infra</option>
+  <option value="Network">Network</option>
+  <option value="Security">Security</option>
+  <option value="SAP">SAP</option>
+  <option value="SD">SD</option>
+  <option value="Tools">Tools</option>
+</select>
+		</td>
+	</tr>
+	</table>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>
